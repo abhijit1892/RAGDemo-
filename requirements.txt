@@ -1,14 +1,25 @@
+# Core LLM + RAG stack
 langchain
 langchain-community
 langchain-openai
 langgraph
 openai
+groq
+
+# Embeddings + Vector Search
 faiss-cpu
+sentence-transformers
+torch
+tiktoken
+
+# Data handling
 pydantic
 python-dotenv
-beautifulsoup4
 requests
+beautifulsoup4
+lxml
+pypdf
+
+# UI + Tools
 streamlit
 wikipedia
-sentence-transformers
-groq
